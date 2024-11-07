@@ -1,0 +1,14 @@
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\bin\Debug\net8.0\HotelManagement.DAL.deps.json
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\bin\Debug\net8.0\HotelManagement.DAL.runtimeconfig.json
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\bin\Debug\net8.0\HotelManagement.DAL.dll
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\bin\Debug\net8.0\HotelManagement.DAL.pdb
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\obj\Debug\net8.0\HotelManagement.DAL.csproj.AssemblyReference.cache
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\obj\Debug\net8.0\HotelManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\obj\Debug\net8.0\HotelManagement.DAL.AssemblyInfoInputs.cache
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\obj\Debug\net8.0\HotelManagement.DAL.AssemblyInfo.cs
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\obj\Debug\net8.0\HotelManagement.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\obj\Debug\net8.0\HotelManagement.DAL.dll
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\obj\Debug\net8.0\refint\HotelManagement.DAL.dll
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\obj\Debug\net8.0\HotelManagement.DAL.pdb
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\obj\Debug\net8.0\HotelManagement.DAL.genruntimeconfig.cache
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.DAL\obj\Debug\net8.0\ref\HotelManagement.DAL.dll

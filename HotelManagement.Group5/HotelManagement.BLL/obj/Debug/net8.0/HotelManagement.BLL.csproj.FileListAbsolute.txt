@@ -1,0 +1,15 @@
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\bin\Debug\net8.0\HotelManagement.BLL.deps.json
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\bin\Debug\net8.0\HotelManagement.BLL.dll
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\bin\Debug\net8.0\HotelManagement.BLL.pdb
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\bin\Debug\net8.0\HotelManagement.DAL.dll
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\bin\Debug\net8.0\HotelManagement.DAL.pdb
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\obj\Debug\net8.0\HotelManagement.BLL.csproj.AssemblyReference.cache
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\obj\Debug\net8.0\HotelManagement.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\obj\Debug\net8.0\HotelManagement.BLL.AssemblyInfoInputs.cache
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\obj\Debug\net8.0\HotelManagement.BLL.AssemblyInfo.cs
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\obj\Debug\net8.0\HotelManagement.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\obj\Debug\net8.0\HotelMan.90F3649C.Up2Date
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\obj\Debug\net8.0\HotelManagement.BLL.dll
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\obj\Debug\net8.0\refint\HotelManagement.BLL.dll
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\obj\Debug\net8.0\HotelManagement.BLL.pdb
+C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement.BLL\obj\Debug\net8.0\ref\HotelManagement.BLL.dll
