@@ -24,7 +24,7 @@ public partial class HotelContext : DbContext
 
     public virtual DbSet<ServiceDetail> ServiceDetails { get; set; }
 
-    public virtual DbSet<Task> Tasks { get; set; }
+    public virtual DbSet<Entities.Task> Tasks { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer(GetConnectionString());
