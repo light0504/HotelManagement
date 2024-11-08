@@ -1,4 +1,4 @@
-﻿using HotelManagement.BLL.Services;
+﻿using HotelManagement.BLL.Service;
 using HotelManagement.DAL.Entities;
 using System;
 using System.Collections.Generic;

@@ -1,4 +1,4 @@
-﻿using HotelManagement.BLL.Services;
+﻿using HotelManagement.BLL.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,7 +41,7 @@ namespace HotelManagement
             {
                 return;
             }
-            _service.DeleteTask(selected);
+            _service.RemoveTask(selected);
             FillDataGrid(_service.GetAllTasks());
         }
 
