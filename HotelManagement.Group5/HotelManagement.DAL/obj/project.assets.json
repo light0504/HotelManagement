@@ -4349,11 +4349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Light\\Desktop\\HotelManagement.Group5\\HotelManagement.DAL\\HotelManagement.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Light\\Desktop\\1\\HotelManagement\\HotelManagement.Group5\\HotelManagement.DAL\\HotelManagement.DAL.csproj",
       "projectName": "HotelManagement.DAL",
-      "projectPath": "C:\\Users\\Light\\Desktop\\HotelManagement.Group5\\HotelManagement.DAL\\HotelManagement.DAL.csproj",
+      "projectPath": "C:\\Users\\Light\\Desktop\\1\\HotelManagement\\HotelManagement.Group5\\HotelManagement.DAL\\HotelManagement.DAL.csproj",
       "packagesPath": "C:\\Users\\Light\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Light\\Desktop\\HotelManagement.Group5\\HotelManagement.DAL\\obj\\",
+      "outputPath": "C:\\Users\\Light\\Desktop\\1\\HotelManagement\\HotelManagement.Group5\\HotelManagement.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Light\\AppData\\Roaming\\NuGet\\NuGet.Config",

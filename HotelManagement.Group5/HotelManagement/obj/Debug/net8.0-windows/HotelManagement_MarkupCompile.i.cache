@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement\obj\Debug\net8.0-windows\
+C:\Users\Light\Desktop\1\HotelManagement\HotelManagement.Group5\HotelManagement\obj\Debug\net8.0-windows\
 HotelManagement
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Light\Desktop\HotelManagement.Group5\HotelManagement\App.xaml
-11407045341
+C:\Users\Light\Desktop\1\HotelManagement\HotelManagement.Group5\HotelManagement\App.xaml
+4-276142985
 
-6381057297
-246-223694029
-MainWindow.xaml;
+9-1164579955
+246-663205657
+DetailTaskWindow.xaml;LoginWindow.xaml;MainWindow.xaml;TaskWindow.xaml;
 
-True
+False
 

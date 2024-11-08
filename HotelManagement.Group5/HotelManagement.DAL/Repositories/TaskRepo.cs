@@ -37,10 +37,10 @@ namespace HotelManagement.DAL.Repositories
             _context.SaveChanges();
         }
 
-        public void DeleteTask(int id) 
+        public void DeleteTask(Entities.Task task) 
         {
             _context = new();
-            _context.Tasks.Remove(GetTaskById(id));
+            _context.Tasks.Remove(task);
             _context.SaveChanges();
         }
 

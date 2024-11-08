@@ -20,7 +20,7 @@ namespace HotelManagement.BLL.Service
 
         public void UpdateTask(DAL.Entities.Task task) => _repo.UpdateTask(task);
 
-        public void RemoveTask(int id) => _repo.DeleteTask(id);
+        public void RemoveTask(DAL.Entities.Task task) => _repo.DeleteTask(task);
 
         public List<DAL.Entities.Task> GetTaskByMemberId(int id) => _repo.GetTasksByMemberId(id);
     }

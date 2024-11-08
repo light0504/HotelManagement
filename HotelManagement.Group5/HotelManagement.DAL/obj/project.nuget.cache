@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7vM38B+YWRc=",
+  "dgSpecHash": "tqnrgU2X7BE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Light\\Desktop\\HotelManagement.Group5\\HotelManagement.DAL\\HotelManagement.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Light\\Desktop\\1\\HotelManagement\\HotelManagement.Group5\\HotelManagement.DAL\\HotelManagement.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Light\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Light\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

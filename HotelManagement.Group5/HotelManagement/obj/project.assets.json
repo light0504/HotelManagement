@@ -3226,11 +3226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Light\\Desktop\\HotelManagement.Group5\\HotelManagement\\HotelManagement.csproj",
+      "projectUniqueName": "C:\\Users\\Light\\Desktop\\1\\HotelManagement\\HotelManagement.Group5\\HotelManagement\\HotelManagement.csproj",
       "projectName": "HotelManagement",
-      "projectPath": "C:\\Users\\Light\\Desktop\\HotelManagement.Group5\\HotelManagement\\HotelManagement.csproj",
+      "projectPath": "C:\\Users\\Light\\Desktop\\1\\HotelManagement\\HotelManagement.Group5\\HotelManagement\\HotelManagement.csproj",
       "packagesPath": "C:\\Users\\Light\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Light\\Desktop\\HotelManagement.Group5\\HotelManagement\\obj\\",
+      "outputPath": "C:\\Users\\Light\\Desktop\\1\\HotelManagement\\HotelManagement.Group5\\HotelManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Light\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3247,8 +3247,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Light\\Desktop\\HotelManagement.Group5\\HotelManagement.BLL\\HotelManagement.BLL.csproj": {
-              "projectPath": "C:\\Users\\Light\\Desktop\\HotelManagement.Group5\\HotelManagement.BLL\\HotelManagement.BLL.csproj"
+            "C:\\Users\\Light\\Desktop\\1\\HotelManagement\\HotelManagement.Group5\\HotelManagement.BLL\\HotelManagement.BLL.csproj": {
+              "projectPath": "C:\\Users\\Light\\Desktop\\1\\HotelManagement\\HotelManagement.Group5\\HotelManagement.BLL\\HotelManagement.BLL.csproj"
             }
           }
         }
