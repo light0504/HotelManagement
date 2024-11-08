@@ -1,0 +1,33 @@
+﻿<Window x:Class="HotelManagement.DetailTaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelManagement"
+        mc:Ignorable="d"
+        Title="DetailTaskWindow" Height="450" Width="400" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content ="Detail TASK Window" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="118,10,0,0"/>
+
+        <Label Content="MemberID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
+        <TextBox x:Name="txtMemberID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,50,0,0" Width="151" />
+
+        <Label Content="RoomNumber" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,95,0,0"/>
+        <TextBox x:Name="txtRoomNumber" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,95,0,0" Width="151"/>
+
+        <Label Content="MemberName" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,140,0,0"/>
+        <TextBox x:Name="txtMemberName" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,140,0,0" Width="151"/>
+
+        <Label Content="DateCreate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,185,0,0"/>
+        <DatePicker x:Name="dtpDateCreate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,185,0,0" Width="151" SelectedDate="{Binding Path=DateTime.Now, Mode=OneWay}"/>
+
+        <Label Content="TaskStatus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,230,0,0"/>
+        <ComboBox x:Name="cboTaskStatus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,230,0,0" Width="151">
+            <ComboBoxItem Content="Processing"/>
+            <ComboBoxItem Content="Done"/>
+        </ComboBox>
+
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="105,280,0,0" Width="75" Background="IndianRed" Foreground="White" Click="btnSave_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="236,280,0,0" Width="75" Background="IndianRed" Foreground="White" Click="btnCancel_Click"/>
+    </Grid>
+</Window>

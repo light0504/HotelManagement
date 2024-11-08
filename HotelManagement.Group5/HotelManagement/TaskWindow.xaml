@@ -1,0 +1,46 @@
+﻿<Window x:Class="HotelManagement.TaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelManagement"
+        mc:Ignorable="d"
+        Title="TaskWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="TaskID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <TextBox x:Name="txtTaskID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="95,10,0,0" Width="200"/>
+
+        <Label Content="MemberID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
+        <TextBox x:Name="txtMemberID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="95,54,0,0" Width="200"/>
+
+        <Label Content="RoomNumber" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,90,0,0"/>
+        <TextBox x:Name="txtRoomNumber" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="95,94,0,0" Width="200"/>
+
+        <Label Content="DateCreate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="321,10,0,0"/>
+        <TextBox x:Name="txtDateCreate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="428,14,0,0" Width="200"/>
+
+        <Label Content="MemberName" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="321,50,0,0"/>
+        <TextBox x:Name="txtMemberName" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="428,50,0,0" Width="200"/>
+
+        <Label Content="TaskStatus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="321,86,0,0"/>
+        <TextBox x:Name="txtTaskStatus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="428,90,0,0" Width="200"/>
+
+        <DataGrid x:Name="dgvData" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,130,0,0" Width="760" Height="200" AutoGenerateColumns="False" SelectionChanged="dgvData_SelectionChanged" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Task ID" Width="80" Binding="{Binding TaskId}" />
+                <DataGridTextColumn Header="MemberId" Width="80" Binding="{Binding MemberId}" />
+                <DataGridTextColumn Header="RoomNumber" Width="80" Binding="{Binding RoomNumber}" />
+                <DataGridTextColumn Header="DateCreate" Width="150" Binding="{Binding DateCreate}" />
+                <DataGridTextColumn Header="MemberName" Width="80" Binding="{Binding MemberName}" />
+                <DataGridTextColumn Header="TaskStatus" Width="80" Binding="{Binding TaskStatus}" />
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button x:Name="btnLoad" Content="Load" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,340,0,0" Width="85" Background="Gold" Foreground="Black" Click="btnLoad_Click"/>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="194,340,0,0" Width="75" Background="IndianRed" Foreground="White" Click="btnCreate_Click"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="390,340,0,0" Width="75" Background="IndianRed" Foreground="White" Click="btnDelete_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="553,340,0,0" Width="75" Background="IndianRed" Foreground="White" Click="btnUpdate_Click"/>
+        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,340,10,0" Width="75" Background="IndianRed" Foreground="White" Click="btnClose_Click"/>
+    </Grid>
+</Window>
