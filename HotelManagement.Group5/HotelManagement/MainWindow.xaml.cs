@@ -38,7 +38,9 @@ namespace HotelManagement
 
         private void btnMember_Click(object sender, RoutedEventArgs e)
         {
-
+            MemberWindow memWin = new();
+            memWin.LoginMember = currentAccount;
+            memWin.Show();
         }
 
         private void btnTask_Click(object sender, RoutedEventArgs e)
