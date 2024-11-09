@@ -1,0 +1,52 @@
+﻿<Window x:Class="HotelManagement.MemberWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelManagement"
+        mc:Ignorable="d"
+        Title="MemberWindow" Height="480" Width="845" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Rectangle Stroke="Black" Margin="15,14,0,0" HorizontalAlignment="Left" Width="210" Height="180" VerticalAlignment="Top"/>
+        <Button x:Name="LoadButton" Content="Load" HorizontalAlignment="Left" Margin="20,19,0,0" VerticalAlignment="Top" Width="60" Click="LoadButton_Click"/>
+        <Button x:Name="AddButton" Content="Add" HorizontalAlignment="Left" Margin="80,169,0,0" VerticalAlignment="Top" Width="60" Click="AddButton_Click"/>
+        <Button x:Name="DeleteButton" Content="Delete" HorizontalAlignment="Left" Margin="160,169,0,0" VerticalAlignment="Top" Width="60" Click="DeleteButton_Click"/>
+        <Label Content="Id :" HorizontalAlignment="Left" Margin="19,44,0,0" VerticalAlignment="Top"/>
+        <Label Content="Email :" HorizontalAlignment="Left" Margin="20,64,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name :" HorizontalAlignment="Left" Margin="20,104,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address :" HorizontalAlignment="Left" Margin="20,84,0,0" VerticalAlignment="Top"/>
+        <Label Content="Phone :" HorizontalAlignment="Left" Margin="20,124,0,0" VerticalAlignment="Top"/>
+        <Label Content="Role :" HorizontalAlignment="Left" Margin="20,144,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="IdText" HorizontalAlignment="Left" Margin="80,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <TextBox x:Name="EmailText" HorizontalAlignment="Left" Margin="80,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <TextBox x:Name="NameText" HorizontalAlignment="Left" Margin="80,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <TextBox x:Name="AddressText" HorizontalAlignment="Left" Margin="80,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <TextBox x:Name="PhoneText" HorizontalAlignment="Left" Margin="80,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <TextBox x:Name="RoleText" HorizontalAlignment="Left" Margin="80,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+
+        <Rectangle Stroke="Black" Margin="15,199,0,0" HorizontalAlignment="Left" Width="210" Height="55" VerticalAlignment="Top"/>
+        <TextBox x:Name="SearchText" HorizontalAlignment="Left" Margin="20,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="SearchComboBox" HorizontalAlignment="Left" Margin="20,204,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="SearchButton" Content="Search" HorizontalAlignment="Left" Margin="160,204,0,0" VerticalAlignment="Top" Width="60" Click="SearchButton_Click"/>
+
+        <Rectangle Stroke="Black" Margin="15,259,0,0" HorizontalAlignment="Left" Width="210" Height="55" VerticalAlignment="Top"/>
+        <Label Content="Role :" HorizontalAlignment="Left" Margin="20,264,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="FilterComboBox" HorizontalAlignment="Left" Margin="20,287,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="FilterButton" Content="Filter" HorizontalAlignment="Left" Margin="160,289,0,0" VerticalAlignment="Top" Width="60" Click="FilterButton_Click"/>
+
+
+        <Button x:Name="CloseButton" Content="Close" HorizontalAlignment="Left" Margin="20,0,0,20" VerticalAlignment="Bottom" Width="60" Click="CloseButton_Click"/>
+
+        <DataGrid x:Name="MemberDataGrid" Margin="240,0,0,0"  AutoGenerateColumns="false" SelectionChanged="MemberDataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Width="100" Binding="{Binding MemberID}" />
+                <DataGridTextColumn Header="Email" Width="100" Binding="{Binding Email}" />
+                <DataGridTextColumn Header="Name" Width="100" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Address" Width="100" Binding="{Binding Address}"/>
+                <DataGridTextColumn Header="Phone" Width="100" Binding="{Binding Phone}" />
+                <DataGridTextColumn Header="Role" Width="100" Binding="{Binding Role}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>
